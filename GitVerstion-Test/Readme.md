@@ -8,4 +8,4 @@
    `dotnet-gitversion init`
 
     For this operation, I choose the GitHubFlow and the SemVer Follow.
-3. 
+3.  change for build
