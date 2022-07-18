@@ -9,7 +9,6 @@ public class Logger
         // +semver: minor #no passed
         // +semver: fix 
 
-
         Console.WriteLine(text);
     }
 }
