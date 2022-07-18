@@ -6,8 +6,8 @@ public class Logger
         // +semver: major #passed
         // +semver: breaking #no passed
         // +semver: feature # passed
-        // +semver: minor #no passed
-        // +semver: fix    
+        // +semver: minor # passed
+        // +semver: fix  #passed   
 
 
 
