@@ -10,6 +10,7 @@ public class Logger
         // +semver: fix  
 
 
+
         Console.WriteLine(text);
     }
 }
