@@ -7,7 +7,7 @@ public class Logger
         // +semver: breaking #no passed
         // +semver: feature  #no passed
         // +semver: minor #no passed
-        // +semver: fix 
+        // +semver: fix  
 
 
         Console.WriteLine(text);
