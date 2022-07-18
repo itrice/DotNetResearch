@@ -1,8 +1,18 @@
 next-version: 1.0
+# tells GitVersion how to treat the AssemblyVersion attribute.
+# Note: you can use None to skip updating the AssemblyVersion while still updating the AssemblyFileVersion and AssemblyInformationVersion attributes. 
+# Valid values: MajorMinorPatchTag, MajorMinorPatch, MajorMinor, Major, None.
 assembly-versioning-scheme: MajorMinorPatch
 assembly-file-versioning-scheme: MajorMinorPatch
-assembly-informational-format: '{InformationalVersion}'
-mode: ContinuousDelivery
+
+# Expressions in curly braces reference one of the variables or a process-scoped environment variable (when prefixed with env:).  default value is {InformationalVersion}.
+# this is for proc version, and can extend what you wanted.
+assembly-informational-format: '{Major}.{Minor}.{Patch}.{env:BUILD_NUMBER ?? 42}-alpha'
+# assembly-versioning-format is for file version
+
+# https://gitversion.net/docs/reference/modes/
+# ContinuousDelivery, ContinuousDeployment, MainlineDevelopment
+mode: ContinuousDeployment
 increment: Inherit
 continuous-delivery-fallback-tag: ci
 tag-prefix: '[vV]'
