@@ -3,8 +3,8 @@ public class Logger
 {
     public void Log(string text)
     {
-        // test
-                // feature
+        // +semver: major #passed
+        // +semver: feature
         Console.WriteLine(text);
     }
 }
