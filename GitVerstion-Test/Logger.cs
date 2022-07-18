@@ -4,8 +4,7 @@ public class Logger
     public void Log(string text)
     {
         // test
-
-        // feature
+                // feature
         Console.WriteLine(text);
     }
 }
