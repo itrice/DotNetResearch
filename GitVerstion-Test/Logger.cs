@@ -4,7 +4,8 @@ public class Logger
     public void Log(string text)
     {
         // +semver: major #passed
-        // +semver: feature 
+        // +semver: feature  # not passed
+        // +semver: fix 
         Console.WriteLine(text);
     }
 }
