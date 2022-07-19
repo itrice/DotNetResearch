@@ -4,10 +4,10 @@
     <RootNamespace>iTrice.Research.GitVersion</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <InformationalVersion>1.0.0+6.Branch.main.Sha.e4f90a592bd9fa776c80529a73347089f351e389</InformationalVersion>
-    <Version>1.0.0</Version>
+    <AssemblyVersion>2.2.1.0</AssemblyVersion>
+    <FileVersion>2.2.1.0</FileVersion>
+    <InformationalVersion>2.2.1.42-alpha</InformationalVersion>
+    <Version>2.2.1-ci03</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="GitVersion.MsBuild" Version="5.10.3">
