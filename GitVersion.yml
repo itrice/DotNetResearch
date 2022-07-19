@@ -3,7 +3,7 @@ next-version: 1.0
 # Note: you can use None to skip updating the AssemblyVersion while still updating the AssemblyFileVersion and AssemblyInformationVersion attributes. 
 # Valid values: MajorMinorPatchTag, MajorMinorPatch, MajorMinor, Major, None.
 assembly-versioning-scheme: MajorMinorPatch
-assembly-file-versioning-scheme: MajorMinorPatch
+assembly-file-versioning-scheme: MajorMinorPatchTag
 
 # Expressions in curly braces reference one of the variables or a process-scoped environment variable (when prefixed with env:).  default value is {InformationalVersion}.
 # this is for proc version, and can extend what you wanted.
