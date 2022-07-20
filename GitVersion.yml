@@ -8,6 +8,7 @@ assembly-file-versioning-scheme: MajorMinorPatchTag
 # Expressions in curly braces reference one of the variables or a process-scoped environment variable (when prefixed with env:).  default value is {InformationalVersion}.
 # this is for proc version, and can extend what you wanted.
 assembly-informational-format: '{InformationalVersion}'
+# assembly-informational-format: '{Major}.{Minor}.{Patch}.{env:BUILD_NUMBER ?? 42}-alpha'
 # assembly-versioning-format is for file version
 
 # https://gitversion.net/docs/reference/modes/
@@ -16,14 +17,15 @@ mode: ContinuousDeployment
 increment: Inherit
 continuous-delivery-fallback-tag: ci # this node can relation with the version. InformationalVersion
 tag-prefix: '[vV]'
+tag: 'Edwin'
 major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(feature|minor)'
 patch-version-bump-message: '\+semver:\s?(fix|patch)'
 no-bump-message: '\+semver:\s?(none|skip)'
-legacy-semver-padding: 2
-build-metadata-padding: 2
-commits-since-version-source-padding: 2
-tag-pre-release-weight: 1
+legacy-semver-padding: 4
+build-metadata-padding: 4
+commits-since-version-source-padding: 4
+tag-pre-release-weight: 4
 commit-message-incrementing: Enabled
 ignore:
   sha: []

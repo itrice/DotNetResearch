@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyVersion>2.2.1.0</AssemblyVersion>
-    <FileVersion>2.2.1.0</FileVersion>
-    <InformationalVersion>2.2.1.42-alpha</InformationalVersion>
-    <Version>2.2.1-ci03</Version>
+    <FileVersion>2.2.1.7</FileVersion>
+    <InformationalVersion>2.2.1-ci.7+Branch.main.Sha.156ee0a3062b1b42a5236c1acf2df8b00401ceba</InformationalVersion>
+    <Version>2.2.1-ci0007</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="GitVersion.MsBuild" Version="5.10.3">
