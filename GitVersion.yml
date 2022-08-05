@@ -1,4 +1,4 @@
-next-version: 1.0
+next-version: 3.0
 # tells GitVersion how to treat the AssemblyVersion attribute.
 # Note: you can use None to skip updating the AssemblyVersion while still updating the AssemblyFileVersion and AssemblyInformationVersion attributes. 
 # Valid values: MajorMinorPatchTag, MajorMinorPatch, MajorMinor, Major, None.
@@ -17,7 +17,6 @@ mode: ContinuousDeployment
 increment: Inherit
 continuous-delivery-fallback-tag: ci # this node can relation with the version. InformationalVersion
 tag-prefix: '[vV]'
-tag: 'Edwin'
 major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(feature|minor)'
 patch-version-bump-message: '\+semver:\s?(fix|patch)'
